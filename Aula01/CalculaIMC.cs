@@ -11,7 +11,6 @@ namespace Aula01
         public string Calcular(int peso, float altura)
         {
             float imc = peso / (altura * altura);
-            // Console.WriteLine(imc);
             string resultado = "";
             if (imc <= 18.5)
             {
