@@ -26,7 +26,7 @@ do
         int num2 = Convert.ToInt32(Console.ReadLine());
         //var calculadora = new Calculadora();
         Console.WriteLine($"A soma dos números {num1} + {num2} = {Calculadora.Soma(num1, num2)}");
-        // sucesso
+        
         entrada = false;
     }
     catch (FormatException e)
