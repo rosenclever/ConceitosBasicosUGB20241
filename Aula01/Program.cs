@@ -18,7 +18,11 @@ do
         // Joaquim decidiu refatorar seu código eliminando a linha comentada abaixo, mas mantendo o mesmo funcionamento.
         // Informe que alteração ele realizou
         // string resultado = calculaIMC.Calcular(peso, altura);
-        Console.WriteLine(calculaIMC.Calcular(peso, altura));
+        Console.WriteLine("IMC calculado: " + calculaIMC.Calcular(peso, altura));
+
+
+
+
         //Crie uma classe chamada Calculadora, que possua um método que some dois número inteiros e retorne o resultado dessa soma. O nome do método deve ser Soma. Ao final deverão ser exibidos os números informados e o valor da soma
         Console.WriteLine("Informe um número inteiro: ");
         int num1 = Convert.ToInt32(Console.ReadLine());
