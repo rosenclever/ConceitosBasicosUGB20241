@@ -15,7 +15,35 @@ namespace Aula01
         }
 
         // obter a classificação do IMC fornecendo o IMC
-
+        public string ObterClassificacao(float imc)
+        {
+            string resultado = "";
+            if (imc <= 18.5)
+            {
+                resultado = "Magreza";
+            }
+            else if (imc <= 24.9)
+            {
+                resultado = "peso normal";
+            }
+            else if (imc <= 29.9)
+            {
+                resultado = "sobrepeso";
+            }
+            else if (imc <= 34.9)
+            {
+                resultado = "obesidade grau 1";
+            }
+            else if (imc <= 49.9)
+            {
+                resultado = "obesidade grau 2";
+            }
+            else
+            {
+                resultado = "obesidade grau 3";
+            }
+            return resultado;
+        }
         // obter a classificação do IMC fornecendo peso e altura
     }
 }
