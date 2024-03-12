@@ -45,5 +45,9 @@ namespace Aula01
             return resultado;
         }
         // obter a classificação do IMC fornecendo peso e altura
+        public string ObterClassificacao(int peso, float altura)
+        {
+           return ObterClassificacao(Calcular(peso, altura)); 
+        }
     }
 }

@@ -23,6 +23,8 @@ do
 
         Console.WriteLine(calculaIMC.ObterClassificacao(imc));
 
+        Console.WriteLine($"Para o peso {peso} e a altura {altura} a classificação do imc é {calculaIMC.ObterClassificacao(peso, altura)}");
+
 
         //Crie uma classe chamada Calculadora, que possua um método que some dois número inteiros e retorne o resultado dessa soma. O nome do método deve ser Soma. Ao final deverão ser exibidos os números informados e o valor da soma
         Console.WriteLine("Informe um número inteiro: ");
